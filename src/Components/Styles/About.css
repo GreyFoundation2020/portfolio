@@ -1,0 +1,7 @@
+.about-container{
+    max-width: 100%;
+    text-align: center;
+    background: rbga(red,green,blue);
+    color:red;
+
+}

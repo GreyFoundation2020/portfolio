@@ -1,0 +1,111 @@
+
+.home-container{
+    margin: 0%;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: darkslategray;
+    position: absolute;
+}
+.carousel-width{
+       width: 100%;
+    height: 100%;
+     background-Color: colors[i];
+}
+.carousel-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 8%;
+    margin-right: 5%;
+    padding-top: 5%;
+}
+.image-container{
+    box-sizing: border-box;
+    background-color: orange;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 70% 30% 30% 70%/60% 40% 60% 40%;
+    position: relative;
+    width: 80%;
+    height: 80vh;
+
+}
+.imagefire{
+box-sizing: border-box;
+    width: 85%;
+    align-items: flex-end;
+    align-content: center;
+    height: 75vh;
+    border-radius: 50%;
+    right: 20px;
+    position: absolute;
+    bottom: 40px;
+    
+}
+.home-main-text{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    width: 70%;
+    justify-content: flex-start;
+    text-align: justify;
+}
+.text-hello{
+    color: orange;
+    font-weight: 400;
+    text-align: justify;
+}
+.text-name{
+    width: 80%;
+    color: whitesmoke;
+    font-size: 60px;
+}
+.text-name span{
+    color: orange;
+}
+.text-skill{
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 30px;
+}
+.home p{
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    height: max-content;
+ text-align: center;
+ justify-items: center;
+ align-items: center;
+    justify-content: space-between;
+    margin-left: 0;
+}
+.home p[type='text']{
+
+}
+.link1{
+    width: 40%;
+    height: 45px;
+    background: orange;
+    color: whitesmoke;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 25px;
+    text-decoration: none;
+    padding-top: 12px;
+}
+.link2{
+     padding-top: 12px;
+    width: 40%;
+    height: 45px;
+    background: whitesmoke;
+    color: orange;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 25px;
+
+}
